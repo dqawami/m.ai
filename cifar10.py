@@ -14,7 +14,7 @@ INPUT_SIZE = 32
 OUTPUT_SIZE = 10
 KERNEL_SIZE = 3
 
-BATCH_SIZE =128
+BATCH_SIZE = 1
 LR = 0.0001
 MOMENTUM = 0.9
 WEIGHT_DECAY = 5e-4
@@ -61,7 +61,6 @@ def main():
     # model = ResNet18(device=DEVICE)
 
     loss = CrossEntropyLoss()
-    # loss = MSELoss()
     optim = SGDOptimizer(model.params(), LR, MOMENTUM, WEIGHT_DECAY)
 
     num_batches = inputs.get_dims()[0] // BATCH_SIZE
