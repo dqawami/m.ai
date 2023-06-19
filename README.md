@@ -6,7 +6,7 @@ m.AI is an open source machine learning library whose goal is to optimize AI alg
 Currently this library supports single-GPU training and CPU training. This library also supports basic linear and image recognition models for training. Exact supported layers can be found in the mAI folder.
 
 ## Feature Requests
-If any bugs are discovered, please report them in the Issues tab. If you have any suggestions for features to be added, please also add them to Issues and they'll be added to the dev list.
+If any bugs are discovered, please report them in Issues. If you have any suggestions for features to be added, please create a new discussion and they'll be added to the dev list.
 
 ## System Requirements
 Ubuntu supported
